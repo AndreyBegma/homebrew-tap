@@ -3,29 +3,29 @@
 # Change the template there, not this file.
 class AgentdockRunner < Formula
   desc "Per-machine daemon of AgentDock, a control plane for agent fleets"
-  homepage "https://github.com/AndreyBegma/AgentDock"
-  version "0.1.0"
+  homepage "https://agentdock.luna-realm.com/"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.1.0/agentdock-runner-0.1.0-darwin-arm64.tar.gz"
-      sha256 "f1d18a55490cbbb4e9864e6ecb7175509019da365dad8ba9a59a153103a43961"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.2.0/agentdock-runner-0.2.0-darwin-arm64.tar.gz"
+      sha256 "5c8e5e3d7d17667fa104478afce9949148d18aa82fb6ac6717c2731c59a93341"
     end
     on_intel do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.1.0/agentdock-runner-0.1.0-darwin-x64.tar.gz"
-      sha256 "76be07bb54266bb18186fef19d743e50fd182c8d14a278c174c6245bde57031c"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.2.0/agentdock-runner-0.2.0-darwin-x64.tar.gz"
+      sha256 "1ae9137fa06c7b5710c8dd54a9e858762bf213e012bc01c00430d7a861bb3e40"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.1.0/agentdock-runner-0.1.0-linux-arm64.tar.gz"
-      sha256 "09eae5309ece427ee163353263f6f3bdd07b378678062eb617ba8705dec4f195"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.2.0/agentdock-runner-0.2.0-linux-arm64.tar.gz"
+      sha256 "4f651bc4cfce0bf6d86731c5142d122fab0a255afc8c681c7efbabda998f8dc9"
     end
     on_intel do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.1.0/agentdock-runner-0.1.0-linux-x64.tar.gz"
-      sha256 "a496021d7ba2d412497e7069e43d884032e35f7d04fa96d6ec1777ed1e8587ca"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.2.0/agentdock-runner-0.2.0-linux-x64.tar.gz"
+      sha256 "3b0f0a88ad520045779f6c52a22ae870a406565c3a8d4e083be6cd376e84d6e8"
     end
   end
 
