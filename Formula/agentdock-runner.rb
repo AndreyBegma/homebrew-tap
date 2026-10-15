@@ -4,28 +4,28 @@
 class AgentdockRunner < Formula
   desc "Per-machine daemon of AgentDock, a control plane for agent fleets"
   homepage "https://agentdock.luna-realm.com/"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.6.0/agentdock-runner-0.6.0-darwin-arm64.tar.gz"
-      sha256 "d5742946caf97847c2a729b746e42770f49e67f543d704655287f4088ebd86ab"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.7.0/agentdock-runner-0.7.0-darwin-arm64.tar.gz"
+      sha256 "eca68ac765df2ce43dc93e0429a16a09c09e193a8db2532c015bdf5cd9d7823a"
     end
     on_intel do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.6.0/agentdock-runner-0.6.0-darwin-x64.tar.gz"
-      sha256 "17b0c3cda6ed55c1e53832e6dfda2fcaa7209a187a10e2f2d0ab782189996dec"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.7.0/agentdock-runner-0.7.0-darwin-x64.tar.gz"
+      sha256 "4d3e08de7bcbadda7a126fd61022c7180cadc79c02abcd507462ab5381d66cb8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.6.0/agentdock-runner-0.6.0-linux-arm64.tar.gz"
-      sha256 "c383789db4076c04b80b514af6e4eaae71e60b676a09b08aa51787698a10410f"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.7.0/agentdock-runner-0.7.0-linux-arm64.tar.gz"
+      sha256 "e39005c6f4180b6fae77c10839d06e3e49eb15c37c2dfa647a72849d0e582874"
     end
     on_intel do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.6.0/agentdock-runner-0.6.0-linux-x64.tar.gz"
-      sha256 "26af05a55f92dde4bad4892ccdd2e57243a922f28aa4fbbbec173d9d9b0eecd7"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.7.0/agentdock-runner-0.7.0-linux-x64.tar.gz"
+      sha256 "5b6aae5340902ae405b3b484841448b94f32fba5c499b18edfef8e65262246ae"
     end
   end
 
