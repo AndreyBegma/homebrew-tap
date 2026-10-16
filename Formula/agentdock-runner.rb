@@ -4,28 +4,28 @@
 class AgentdockRunner < Formula
   desc "Per-machine daemon of AgentDock, a control plane for agent fleets"
   homepage "https://agentdock.luna-realm.com/"
-  version "0.11.2"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.11.2/agentdock-runner-0.11.2-darwin-arm64.tar.gz"
-      sha256 "006ebd46413fa0c18acded28259ebbf536bbc22c27266d410f84cc47c6e2e919"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.12.0/agentdock-runner-0.12.0-darwin-arm64.tar.gz"
+      sha256 "41f1384e8319b280fb31082d9ef50ec5c41f0241f17d308219b10c2e7532a4af"
     end
     on_intel do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.11.2/agentdock-runner-0.11.2-darwin-x64.tar.gz"
-      sha256 "36ef39e1be6f58db42a909f1e6141b13fe168356e658f6e20e2f56ae926bc3d7"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.12.0/agentdock-runner-0.12.0-darwin-x64.tar.gz"
+      sha256 "7f6a6df6bf87d589ef22eacb7ea05127243d5733af18fa065dd7433c6448f740"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.11.2/agentdock-runner-0.11.2-linux-arm64.tar.gz"
-      sha256 "ca4a3b8b481f6b6ae6a9e184b8e1e7a263854abcd9637e54cd6238f89e641d11"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.12.0/agentdock-runner-0.12.0-linux-arm64.tar.gz"
+      sha256 "d7851bc45c96a192113e49ec6bff1408a9e17421ff062c787c9be04211712dc4"
     end
     on_intel do
-      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.11.2/agentdock-runner-0.11.2-linux-x64.tar.gz"
-      sha256 "19ca2e7d44b664fe2b87365bea0ec6216a99010a8c513e1956052600073edf04"
+      url "https://github.com/AndreyBegma/AgentDock/releases/download/runner-v0.12.0/agentdock-runner-0.12.0-linux-x64.tar.gz"
+      sha256 "42a5c290844b7f3f6e015e1518cf1da94dcfbd563a896b7ea79e3415ec90d925"
     end
   end
 
