@@ -7,40 +7,40 @@ require "openssl"
 class NautelleRunner < Formula
   desc "Per-machine daemon of Nautelle, a control plane for agent fleets"
   homepage "https://nautelle.luna-realm.com/"
-  version "0.15.0"
+  version "0.16.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.15.0/nautelle-runner-0.15.0-darwin-arm64.tar.gz"
-      sha256 "259608db2e006e0a7e31d0d4fe739d7913fb7defbe2113ab04a2dc7e3cb45903"
+      url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.16.0/nautelle-runner-0.16.0-darwin-arm64.tar.gz"
+      sha256 "65390366a3374a35445cde5777ff236c4e1800a29b7fe66a7fd2e2cb10bcc3e2"
     end
     on_intel do
-      url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.15.0/nautelle-runner-0.15.0-darwin-x64.tar.gz"
-      sha256 "e35252aa4d02ad8df03b523d1bd53cde966d8da07357b48fafc1c3e4e6476dba"
+      url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.16.0/nautelle-runner-0.16.0-darwin-x64.tar.gz"
+      sha256 "cad6fe3a91d2d70df3e2a0a4b3b53bb7b143bce2f7fb8896764f3c754257dec2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.15.0/nautelle-runner-0.15.0-linux-arm64.tar.gz"
-      sha256 "a56ac7e17badd00bdeadbdc1fc241e992c910345373a1f4ab53ed2c9233755ca"
+      url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.16.0/nautelle-runner-0.16.0-linux-arm64.tar.gz"
+      sha256 "3e68f650b883083959b96220c23bf36f462faf5b6f9cc6ad8bbfdd2d11f603de"
     end
     on_intel do
-      url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.15.0/nautelle-runner-0.15.0-linux-x64.tar.gz"
-      sha256 "d78c4e6e16445cb4f85015db22e632c00fccc6987259c5efc5d9e4d6619d257c"
+      url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.16.0/nautelle-runner-0.16.0-linux-x64.tar.gz"
+      sha256 "9b42cda4fb89c8eefb338cbfe0d9e42e3652610fd86aaab1f4422ed35f1195cd"
     end
   end
 
   # SHA256SUMS of the release and its Ed25519 signature (ADR-0049).
   resource "SHA256SUMS" do
-    url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.15.0/SHA256SUMS"
-    sha256 "c852e3e9d5cf315ca8af79271d77d9759c0821bef0831094045d213de47eb659"
+    url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.16.0/SHA256SUMS"
+    sha256 "901df9d42b17cb5a11e08ba684c8f598713f1554314db4faca63119c5bd1f606"
   end
 
   resource "SHA256SUMS.sig" do
-    url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.15.0/SHA256SUMS.sig"
-    sha256 "f1f6bdc6cd6e9f850c06f2ecc0eb50d3f627d20613e8b2786f13fca228ceccc5"
+    url "https://github.com/AndreyBegma/Nautelle/releases/download/runner-v0.16.0/SHA256SUMS.sig"
+    sha256 "37dce980cf0765376a5539a516c58a77feada0b835ef71d8ba9dcb41c1f548f6"
   end
 
   # apps/runner/release-key.pub of Nautelle.
